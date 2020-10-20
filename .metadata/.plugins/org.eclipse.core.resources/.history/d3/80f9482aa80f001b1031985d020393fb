@@ -1,0 +1,15 @@
+package otherPrograms;
+
+public class FactwithRecursion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public void fact(int number)
+	{
+		int fact = fact * fact(number-1);
+	}
+	
+}

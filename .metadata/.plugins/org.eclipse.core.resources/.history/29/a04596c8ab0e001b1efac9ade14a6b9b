@@ -1,0 +1,30 @@
+package com.Insight.Browserfactory;
+
+import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class ChromeBrowser {
+
+	public static WebDriver driver;
+
+	public static WebDriver launchChrome() {
+
+		WebDriverManager.chromedriver().setup();
+		return new ChromeDriver();
+	}
+
+	public Capabilities getChromeCapabilities() {
+		ChromeOptions option = new ChromeOptions();
+		option.addArguments("start-maximized");
+		DesiredCapabilities chrome = DesiredCapabilities.chrome();
+		chrome.setJavascriptEnabled(true);
+		chrome.setCapability(ChromeOptions.CAPABILITY, option);
+		return chrome;
+	}
+
+}

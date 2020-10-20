@@ -1,0 +1,19 @@
+package encapsulationConcept;
+
+public class PersonsTest {
+
+	public static void main(String args[]) {
+
+		
+		Persons p = new Persons();
+		p.setName("Pratik");
+		System.out.println(p.getName());
+		p.setAge(32);
+		System.out.println(p.getAge());
+		
+		
+		
+		
+	}
+
+}

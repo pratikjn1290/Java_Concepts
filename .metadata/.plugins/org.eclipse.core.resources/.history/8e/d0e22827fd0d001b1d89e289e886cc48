@@ -1,0 +1,48 @@
+package browserfactory;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.opera.OperaDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class BrowserFactoryWithSwitchCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	}
+
+	public void browserLaunch(String browsername) {
+		WebDriver driver;
+
+		switch (browsername) {
+		case "chrome":
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+			break;
+
+		case "Firefox":
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+			break;
+
+		case "edge":
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+			break;
+
+		case "safari":
+			WebDriverManager.operadriver().setup();
+			driver = new OperaDriver();
+			break;
+
+		default:
+			System.out.println("Choose Valid Browsername" + browsername);
+			break;
+		}
+
+	}
+
+}

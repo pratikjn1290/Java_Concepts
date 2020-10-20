@@ -1,0 +1,24 @@
+package otherPrograms;
+
+public class SwapUsingThreevar {
+
+	static int n1 = 20;
+	static int n2 = 30;
+	static int temp;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static void swap() {
+		
+		System.out.println("----------Before Swap-----------");
+		temp = n1;
+		n2 = n1;
+		n2 = temp;
+		
+		System.out.println("----------Before Swap-----------");
+	}
+
+}

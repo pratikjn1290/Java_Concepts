@@ -1,0 +1,28 @@
+package stringfunctions;
+
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
+public class Anagram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		char[] ch = { 'S', 'i', 'l', 'e', 'n', 't' };
+		char[] ch2 = { 'L', 'i', 's', 't', 'e', 'n' };
+
+		Arrays.sort(ch);
+		Arrays.sort(ch2);
+
+		int len_s1 = ch.length;
+		int len_s2 = ch2.length;
+
+		if (!(len_s1 == len_s2)) {
+			System.out.println("String is not anagram");
+		}
+
+		else {
+
+		}
+	}
+}

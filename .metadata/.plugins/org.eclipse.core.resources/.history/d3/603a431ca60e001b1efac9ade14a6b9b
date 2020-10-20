@@ -1,0 +1,40 @@
+package com.Insight.baseclass;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+
+import com.Insight.Browserfactory.ChromeBrowser;
+import com.Insight.Browserfactory.FirefoxBrowser;
+import com.Insight.Browserfactory.HtmlUnitBrowser;
+import com.Insight.utility.PropertiesFileReader;
+
+public class TestBase {
+
+	public static WebDriver driver;
+
+	public void initApplication() {
+		PropertiesFileReader reader = null;
+		if (reader.getBrowser().equalsIgnoreCase("chrome")) {
+			ChromeBrowser.launchChrome();
+		} else if (reader.getBrowser().equalsIgnoreCase("Firefox")) {
+			FirefoxBrowser.getFirefoxDriver();
+		}
+
+		else {
+			HtmlUnitBrowser.getHtmlUnitDriver();
+		}
+
+		driver.manage().window().maximize();
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().deleteAllCookies();
+		driver.get(reader.getURL());
+
+	}
+
+	public void tearDown() {
+		driver.close();
+	}
+
+}

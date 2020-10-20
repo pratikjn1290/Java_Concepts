@@ -1,0 +1,17 @@
+package abstractConcepts;
+
+public abstract class OopsAbstract {
+
+	// create and object of abstract class
+	// in Abstract class atleast one method has to be abstract,
+
+	public abstract void getTitle();
+
+	public abstract void url();
+	
+	public final void logo();
+	{
+		
+	}
+
+}

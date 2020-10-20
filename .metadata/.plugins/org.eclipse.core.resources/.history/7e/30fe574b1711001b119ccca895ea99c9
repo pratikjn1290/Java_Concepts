@@ -1,0 +1,28 @@
+package advance100420;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class HandleOTP {
+
+	public static final String SID = "AC1fc18a078ba1bbf204c15f41181cc5a4";
+	public static final String AUTH_TOKEN = "5972f8b88ebbfa70b15fa7b258b5d0d7";
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://accounts.corpository.com/auth/realms/corpository/login-actions/registration?client_id=insight&tab_id=ImHHtcKA8BA");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		
+		
+
+	}
+
+}

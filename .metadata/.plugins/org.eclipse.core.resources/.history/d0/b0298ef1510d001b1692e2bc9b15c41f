@@ -1,0 +1,35 @@
+package interfaceConcepts;
+
+
+//Interface uses Implements as keyword when used by any class,
+//No object can be created,
+//Interface has only method declaration,
+//Interface defines only rules,
+//Class can implement multiple interface,
+//implemented class can have its own class
+//Methods are overridden from parent class
+
+public class ApolloHospital implements INDIANMedical{
+
+	@Override
+	public void physocology() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void gatrology() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void gynacology() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+	
+}

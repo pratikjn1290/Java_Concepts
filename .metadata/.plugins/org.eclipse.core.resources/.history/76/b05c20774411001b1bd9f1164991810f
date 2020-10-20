@@ -1,0 +1,16 @@
+package stringfunctions;
+
+public class CharBycHarConcat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String s1 = "Hackerrank";
+		String s2 = "Mountain";
+		
+		int len_s1 = s1.length();
+		int len_s2 = s2.length();
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package constructorConcept;
+
+public class PersonManagement {
+
+	String name;
+	int age;
+	String gender;
+	double salary;
+	
+	public PersonManagement(String name, int age)
+	{
+		
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		PersonManagement pm = new PersonManagement("Jain", 23);
+		System.out.println(pm.name);
+		System.out.println(pm.age);
+
+	}
+
+}

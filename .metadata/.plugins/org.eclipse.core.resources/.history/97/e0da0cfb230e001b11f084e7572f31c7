@@ -1,0 +1,24 @@
+package abstractConcepts;
+
+public class AbstractConcepts extends OopsAbstract {
+
+	@Override
+	public void getTitle() {
+		System.out.println("title of the page");
+		
+	}
+
+	@Override
+	public void url() {
+		// TODO Auto-generated method stub
+		System.out.println("URL of the page");
+		
+	}
+	
+	public void forgotPassword()
+	{
+		System.out.println("Forgot Password");
+	}
+	
+
+}

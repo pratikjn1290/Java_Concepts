@@ -1,0 +1,19 @@
+package encapsulationConcept;
+
+public class Persons {
+
+	//Scope of the private is within the class
+	
+	private String name;
+	private String work;
+	private int Age;
+	private double Salary;
+
+	public static void main(String args[]) {
+		Persons p = new Persons();
+		p.name = "Tom";
+		System.out.println(p.name);
+
+	}
+
+}

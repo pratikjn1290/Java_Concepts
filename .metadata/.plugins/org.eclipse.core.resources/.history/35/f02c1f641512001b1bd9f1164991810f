@@ -1,0 +1,25 @@
+package collectionsConcepts;
+
+import java.util.ArrayList;
+
+public class RemoveDuplicatesFromArrayList {
+
+	public static void main(String[] args) {
+		
+		
+	// TODO Auto-generated method stub
+
+		ArrayList<String> als = new ArrayList<String>();
+		als.add("Hello");
+		als.add("Hi");
+		als.add("Hello");
+		als.add("How");
+		als.add("Are");
+
+	
+		
+		
+	
+	}
+
+}

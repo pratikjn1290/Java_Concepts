@@ -1,0 +1,31 @@
+
+public class FibonaciTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+			int fact;
+
+			int temp = 1;
+
+			for(int i = 0; i<1000; i++)
+
+			{
+
+			fact = temp;
+
+			fact = fact+ i;
+
+			temp = fact;
+
+			System.out.println(temp);
+
+			}
+
+			}
+		
+		
+		
+	}
+
+}

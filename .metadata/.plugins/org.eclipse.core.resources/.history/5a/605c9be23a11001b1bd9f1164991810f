@@ -1,0 +1,33 @@
+package advance100420;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class svgImageHandling {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://debeissat.nicolas.free.fr/svg3d.php");
+		driver.switchTo().frame("svg_result");
+
+		 List<WebElement> svgImages = driver.findElements(By.xpath(
+				"//*[name()='svg']//*[local-name()='g' and @id='g2']"
+				+ "//*[local-name()='path' and contains(@id, 'face')]"));
+		 for(WebElement elem : svgImages)
+		 {
+			 String value = elem.getAttribute("d");
+			 System.out.println(value);
+		 }
+
+	}
+
+}

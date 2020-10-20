@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.testng.eclipse.launchconfig">
+    <stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="org.eclipse.m2e.launchconfig.classpathProvider"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.testng.remote.RemoteTestNG"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Selenium"/>
+    <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.m2e.launchconfig.sourcepathProvider"/>
+    <mapAttribute key="org.testng.eclipse.ALL_CLASS_METHODS"/>
+    <listAttribute key="org.testng.eclipse.CLASS_TEST_LIST">
+        <listEntry value="windowandframes.Screenshot"/>
+        <listEntry value="handlecontrols.AjaxSubmitForm"/>
+        <listEntry value="windowandframes.CurrentDateandTime"/>
+        <listEntry value="windowandframes.MultiplesSeperateWindow"/>
+        <listEntry value="alerthandling.draganddrop"/>
+        <listEntry value="handlecontrols.Handlecheckbox"/>
+        <listEntry value="alerthandling.PromptAlertBox"/>
+        <listEntry value="dropdown.DropdownwithCategory"/>
+        <listEntry value="exceptions.NoAlertPresentException"/>
+        <listEntry value="fileuploadanddownload.JqueryDownloadProgressbar"/>
+        <listEntry value="browserfactory.Chromeoptions"/>
+        <listEntry value="scrollHandelling.HiddenElementHandle"/>
+        <listEntry value="browserfactory.proxysetup"/>
+        <listEntry value="dropdown.Handledropdown"/>
+        <listEntry value="scrollHandelling.ScrollPage"/>
+        <listEntry value="dropdown.DropdownWithSearch"/>
+        <listEntry value="synchronization.ImplicitWait"/>
+        <listEntry value="dropdown.Handlebootstrapdropdown"/>
+        <listEntry value="handlecontrols.InputForm"/>
+        <listEntry value="alerthandling.AlertHandle"/>
+        <listEntry value="dropdown.DropdownwithDisableValue"/>
+        <listEntry value="alerthandling.ConfirmationBox"/>
+        <listEntry value="testngexamples.AnnotationRunSequence"/>
+        <listEntry value="windowandframes.ScreenshotWithFileHandler"/>
+        <listEntry value="alerthandling.SliderMethod1"/>
+        <listEntry value="seleniumAdvanceActivity.JQueryTooltip"/>
+        <listEntry value="browserfactory.htmlunitbrowser"/>
+        <listEntry value="windowandframes.BrokenLinks"/>
+        <listEntry value="handlecontrols.Handleradiobutton"/>
+        <listEntry value="alerthandling.SliderMethod2"/>
+        <listEntry value="exceptions.Illegalstateexception"/>
+        <listEntry value="fileuploadanddownload.ProgressBar"/>
+        <listEntry value="synchronization.Fluentwait"/>
+        <listEntry value="fileuploadanddownload.MultipleFileUpload"/>
+        <listEntry value="windowandframes.Seperatewindow"/>
+        <listEntry value="seleniumAdvanceActivity.MouseHover"/>
+        <listEntry value="exceptions.StaleElementReferenceException"/>
+        <listEntry value="fileuploadanddownload.SingleFileUpload"/>
+        <listEntry value="windowandframes.HandleErrorMessage"/>
+        <listEntry value="testngexamples.GroupTestCase"/>
+        <listEntry value="browserfactory.DisableExtension"/>
+        <listEntry value="windowandframes.HighlightTheElement"/>
+        <listEntry value="fileuploadanddownload.DownloadFile"/>
+        <listEntry value="seleniumAdvanceActivity.KeyboardEvents"/>
+        <listEntry value="synchronization.ExplicitWait"/>
+        <listEntry value="browserfactory.ChromeBrowser"/>
+        <listEntry value="exceptions.InvalidArgumentException"/>
+        <listEntry value="windowandframes.MultipleFrames"/>
+        <listEntry value="dropdown.HandleMultiSelector"/>
+        <listEntry value="dropdown.SearchandMultiSelect"/>
+        <listEntry value="testngexamples.DataDrivenDataProvider"/>
+        <listEntry value="testngexamples.CrossBrowserTest"/>
+        <listEntry value="testngexamples.ParallelExample"/>
+        <listEntry value="browserfactory.edgedriver"/>
+        <listEntry value="handlecontrols.Handletextbox"/>
+        <listEntry value="seleniumAdvanceActivity.Autosuggestion"/>
+        <listEntry value="handlecontrols.RadioButtonHandlingWithList"/>
+        <listEntry value="fileuploadanddownload.BoostrapLoader"/>
+        <listEntry value="synchronization.WaitCommands"/>
+        <listEntry value="browserfactory.Firefoxbrowser"/>
+        <listEntry value="exceptions.SessionNotFoundException"/>
+        <listEntry value="testngexamples.CustomReport"/>
+        <listEntry value="exceptions.NoSuchElementFoundException"/>
+        <listEntry value="seleniumAdvanceActivity.RightClick"/>
+        <listEntry value="browserfactory.ErrorMessage"/>
+        <listEntry value="scrollHandelling.ScrollIntoView"/>
+        <listEntry value="exceptions.NoSuchFrameException"/>
+        <listEntry value="exceptions.NoSuchWindowException"/>
+        <listEntry value="testngexamples.DisableTestCases"/>
+        <listEntry value="browserfactory.UnhandledCeritificate"/>
+        <listEntry value="synchronization.HardWait"/>
+        <listEntry value="windowandframes.MultipleWindow"/>
+    </listAttribute>
+    <listAttribute key="org.testng.eclipse.METHOD_TEST_LIST"/>
+    <listAttribute key="org.testng.eclipse.PACKAGE_TEST_LIST"/>
+    <stringAttribute key="org.testng.eclipse.PRE_DEFINED_LISTENERS" value=""/>
+    <intAttribute key="org.testng.eclipse.TYPE" value="1"/>
+</launchConfiguration>

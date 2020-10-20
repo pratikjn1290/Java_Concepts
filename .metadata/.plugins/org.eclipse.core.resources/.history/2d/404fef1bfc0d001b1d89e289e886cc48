@@ -1,0 +1,25 @@
+package browserfactory;
+
+import org.openqa.selenium.WebDriver;
+
+public class BrowserFactoryWithSwitchCase {
+
+	WebDriver driver;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String browsername = "Firefox";
+		
+		switch (browsername) {
+		case chrome:
+			
+			break;
+
+		default:
+			break;
+		}
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.Insight.test;
+
+import com.Insight.baseclass.TestBase;
+import com.Insight.pages.HomePage;
+
+public class HomePageTest extends TestBase{
+	HomePage home;
+	
+	public HomePageTest()
+	{
+		super();
+	}
+	
+	public String verifyMonitorLogo()
+	{
+		
+		return home.verifySelectedTab();
+		
+		
+	}
+	
+	
+	
+
+}

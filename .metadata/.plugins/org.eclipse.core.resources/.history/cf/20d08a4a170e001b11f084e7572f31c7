@@ -1,0 +1,12 @@
+package interfaceConcepts;
+
+public interface USMedical extends WHO{
+
+	public void oncology();
+	
+	public void nepthology();
+	
+	public void bronchology();
+	
+	
+}

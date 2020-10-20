@@ -1,0 +1,13 @@
+package stringfunctions;
+
+public class LengthOfStringWithoutCommand {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "Hello";
+		char [] str = s.toCharArray();
+		count;
+
+	}
+
+}

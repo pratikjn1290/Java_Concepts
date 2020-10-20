@@ -1,0 +1,16 @@
+package abstractConcepts;
+
+public class AbstractTestClass extends AbstractConcepts{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		AbstractTestClass ATC = new AbstractTestClass();
+		ATC.getTitle();
+		ATC.url();
+		ATC.logo();
+		ATC.welcometext();
+	}
+
+}

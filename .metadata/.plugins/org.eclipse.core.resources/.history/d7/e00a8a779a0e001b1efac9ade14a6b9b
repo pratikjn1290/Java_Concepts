@@ -1,0 +1,13 @@
+package com.Insight.pages;
+
+import org.openqa.selenium.WebElement;
+
+public class HomePage {
+	
+@FindBy(xpath = ""//img[@alt = 'Corpository Brand']")
+WebElement logo;
+
+@FindBy()
+WebElement 
+
+}

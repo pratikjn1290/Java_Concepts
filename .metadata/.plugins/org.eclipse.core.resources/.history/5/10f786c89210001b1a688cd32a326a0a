@@ -1,0 +1,24 @@
+package stringfunctions;
+
+public class OccuranceofIndividualChar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		mystring("Hello");
+	}
+
+	public static void mystring(String input) {
+		char[] ch = new char(input.length());
+		for (int i = 0; i < ch.length; i++) {
+			ch = input.charAt(i);
+			for(int j = 1; j>i-1; j++)
+			{
+				if (c == ch[j])
+				{
+					System.out.println("Duplicate character: " +ch[i]);
+				}
+			}
+		}
+	}
+
+}

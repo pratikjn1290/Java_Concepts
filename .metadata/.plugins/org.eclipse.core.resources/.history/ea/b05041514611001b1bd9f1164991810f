@@ -1,0 +1,17 @@
+package string;
+
+public class Anagram {
+
+	
+	
+	
+	
+	public static boolean areAnagram(char s1[], char s2[])
+{
+	
+		if(s1.length != s2.length)
+		{
+			return false;
+		}
+}
+}

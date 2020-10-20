@@ -1,0 +1,23 @@
+package collectionsConcepts;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
+public class ComparisionOfTwoAList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<String> al1 = new ArrayList<String>(Arrays.asList("A","B","C","D","F"));
+		ArrayList<String> al2 = new ArrayList<String>(Arrays.asList("A","B","C","D","E"));
+		
+		Collections.sort(al1);
+		Collections.sort(al2);
+
+		al1.equals(al2);
+		
+		
+	}
+
+}

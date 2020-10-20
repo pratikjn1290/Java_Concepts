@@ -1,0 +1,26 @@
+package collectionsConcepts;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class ThreadSafeArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<String> alss = Collections.synchronizedList(new ArrayList<String>());
+		alss.add("Raj");
+		alss.add("Guj");
+		alss.add("Hiee");
+		alss.add("Hello");
+		alss.add("How");
+		
+		
+		
+		
+		
+
+	}
+
+}

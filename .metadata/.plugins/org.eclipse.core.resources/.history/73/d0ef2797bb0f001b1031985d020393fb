@@ -1,0 +1,14 @@
+package otherPrograms;
+
+public class SwapUsingThreevar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int n1 = 20;
+		int n2 = 30;
+		int temp;
+
+	}
+
+}

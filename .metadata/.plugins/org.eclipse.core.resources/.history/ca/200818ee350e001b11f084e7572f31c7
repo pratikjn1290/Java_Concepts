@@ -1,0 +1,20 @@
+import java.util.HashMap;
+
+public class HashMapConcept {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		HashMap<String, Integer> hm = new HashMap<String, Integer>();
+		hm.put("Pratik", 1);
+		hm.put("Engineer", 2);
+		hm.put("Test", 3);
+		hm.put("QA", 4);
+		hm.put(null, 5);
+		hm.put(null, 6);
+		
+		
+		System.out.println(hm.get("Pratik"));
+	}
+
+}

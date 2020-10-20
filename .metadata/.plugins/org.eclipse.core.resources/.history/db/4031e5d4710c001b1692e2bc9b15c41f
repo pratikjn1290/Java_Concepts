@@ -1,0 +1,12 @@
+package constructorConcept;
+
+import java.util.ArrayList;
+
+public class EcommerceExample {
+	
+	String productname;
+	double price;
+	String [] sellername;
+	
+
+}

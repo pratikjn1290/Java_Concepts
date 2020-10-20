@@ -1,0 +1,16 @@
+package stringfunctions;
+
+public class RemoveJunk {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s = "#$#@$@#$$#Helloo$%#%#$^$^DVHHHH";
+		int len = s.length();
+		String regex = "[^A-Z a-z]";
+
+		System.out.println(s.replaceAll(regex, ""));
+
+	}
+
+}

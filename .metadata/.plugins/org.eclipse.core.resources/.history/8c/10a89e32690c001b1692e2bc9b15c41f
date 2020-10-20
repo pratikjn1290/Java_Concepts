@@ -1,0 +1,20 @@
+package string;
+
+public class IsNumeric {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String s1 = "String123";
+		
+		String regex = "[a-z A-Z]";
+		
+		int len = s1.length();
+		
+		String str = s1.contains("")
+		
+		
+
+	}
+
+}

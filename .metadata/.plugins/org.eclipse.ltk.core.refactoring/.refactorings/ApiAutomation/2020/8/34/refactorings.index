@@ -1,0 +1,9 @@
+1597842859038	Rename type 'GetApi'
+1597843282977	Rename compilation unit 'DeleteApi.java'
+1597901656316	Move compilation unit
+1597903181641	Copy package
+1597903187653	Delete element
+1597905500112	Rename package 'restApiOauth'
+1597905510666	Rename package 'sslHandling'
+1597905522348	Rename package 'Utility'
+1597905542235	Rename package 'AuthenticationandAuthorisation'

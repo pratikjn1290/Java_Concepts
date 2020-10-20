@@ -1,0 +1,31 @@
+package stringfunctions;
+
+public class CharBycHarConcat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String s1 = "Hackerrank";
+		String s2 = "Mountain";
+		
+		int len_s1 = s1.length();
+		int len_s2 = s2.length();
+		
+		StringBuilder sb = new StringBuilder();
+		
+		for(int i = 0; i < len_s1 || i< len_s2; i++)
+			{
+				if(i < len_s1)
+				{
+					sb.append(s1.charAt(i));
+				}
+				
+				if(i<len_s2)
+				{
+				
+					sb.append(s2.charAt(i));
+				}
+			}
+		System.out.println(sb.toString().trim());
+		}
+}

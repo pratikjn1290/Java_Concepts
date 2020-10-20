@@ -1,0 +1,17 @@
+package ownSelenium;
+
+public interface WebDriver {
+	
+	public void ChromeDriver();
+	
+	public void FirefoxDriver();
+	
+	public void Click();
+	
+	public void findElement();
+	
+	public void sendkeys();
+	
+	public void get();
+
+}

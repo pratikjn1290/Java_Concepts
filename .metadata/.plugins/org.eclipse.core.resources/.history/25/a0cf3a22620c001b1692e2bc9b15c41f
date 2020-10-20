@@ -1,0 +1,19 @@
+package string;
+
+import java.util.Scanner;
+
+public class DuplicateWordUsingHashmap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		//Entered String by user
+		
+		Scanner scan = new Scanner(System.in);
+		String s = scan.nextLine();
+		
+		String words [] = s.split(" ");
+		
+	}
+
+}

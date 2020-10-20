@@ -1,0 +1,28 @@
+package exceptionHandling;
+
+public class NestedtryCatch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int i = 10;
+		NestedtryCatch nc= new NestedtryCatch();
+		nc = null;
+		try {
+		
+			int p = i/0;
+		
+		}
+		
+		catch(ArithmeticException e) {
+			System.out.println(e.getMessage());
+			
+		}
+		
+		catch(NullPointerException e)
+		{
+			System.out.println(e.getMessage());
+		}
+	}
+
+}

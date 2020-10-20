@@ -1,0 +1,12 @@
+package interfaceConcepts;
+
+public class ApolloHospital {
+	
+	//Interface uses Implements as keyword when used by any class,
+	//No object can be created,
+	//Interface has only method declaration,
+	//Interface defines only rules,
+	//Class can implement multiple interface,
+
+	
+}

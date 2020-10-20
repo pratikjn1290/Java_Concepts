@@ -1,0 +1,12 @@
+package interfaceConcepts;
+
+public interface INDIANMedical {
+	
+	
+	public void physocology();
+	
+	public void gatrology();
+	
+	public void gynacology();
+
+}

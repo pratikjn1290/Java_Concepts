@@ -1,0 +1,28 @@
+package com.Insight.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import com.Insight.baseclass.TestBase;
+
+public class LoginPage extends TestBase{
+
+	@FindBy(id = "username")
+	WebElement Username;
+	
+	@FindBy(id = "password")
+	WebElement Password;
+	
+	@FindBy(xpath = "//*[@id='terms']")
+	WebElement TermsAndCondition;
+	
+	@FindBy(id = "username")
+	WebElement SignIn;
+	
+	public LoginPage()
+	{
+		PageFactory.initElements(driver, LoginPage.class);
+	}
+	
+}

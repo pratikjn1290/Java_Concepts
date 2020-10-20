@@ -1,0 +1,54 @@
+package arrayProgram;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+public class DuplicateValueFromArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String [] str = {"Java","Python","Java","QA","RCODE"};
+		
+		for(int i = 0; i<str.length; i++)
+		{
+			for (int j = i+1; j<str.length; j++)
+			{
+				if(str[i].equals(str[j]))
+					
+				{
+					System.out.println("Duplicate Value :" +str[i]);
+				}
+			}
+		}
+		
+		HashSet<String> hs = new HashSet<String>();
+		
+		for(String elem : str)
+		{
+			if(hs.add(elem) != true)
+			{
+				System.out.println("Duplicate value:- " + elem);
+			}
+		}
+
+
+		Map<String, Integer> words = new HashMap<String, Integer>();
+		
+		for(String word : str)
+			Integer count = words.get(word);
+		{
+			if (count == null) {
+				words.put(str, 1);
+			{
+				
+			}
+		}
+		
+		
+	}
+
+}

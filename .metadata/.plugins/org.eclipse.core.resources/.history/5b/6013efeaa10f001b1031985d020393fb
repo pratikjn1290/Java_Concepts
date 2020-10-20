@@ -1,0 +1,18 @@
+package otherPrograms;
+
+public class FactorialNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int number = 5;
+		fact = 0;
+
+		for(i = 1; i<=number, i++)
+		{
+	
+		}
+		
+	}
+
+}

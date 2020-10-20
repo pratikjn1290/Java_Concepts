@@ -1,0 +1,32 @@
+package stringfunctions;
+
+public class CamelCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s = "hello how are you";
+
+		String words[] = s.split(" ");
+		
+		StringBuilder sb = new StringBuilder();
+		
+		for(String word : words)
+		{
+			char firstword = word.charAt(0);
+			if(!Character.isUpperCase(firstword))
+			{
+				sb.append(Character.toUpperCase(firstword)).append(sb.substring(1));
+			}
+			else
+			{
+				sb.append(word.substring(0));
+			}
+		}
+			String result = sb.toString().trim();
+			System.out.println(result);
+		
+
+	}
+
+}

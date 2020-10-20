@@ -1,0 +1,21 @@
+package interfaceConcepts;
+
+public class InterfaceTestClass extends ApolloHospital{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ApolloHospital Ah = new ApolloHospital();
+		Ah.bronchology();
+		Ah.gatrology();
+		Ah.gynacology();
+		Ah.nepthology();
+		Ah.oncology();
+		Ah.physiotherapi();
+		Ah.nureo();
+		Ah.physocology();
+		Ah.physocology();
+		
+	}
+
+}

@@ -1,0 +1,14 @@
+package otherPrograms;
+
+public class ProductOfTwoNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static int prod(int number1, int number2)
+	{
+		int result = number1 * number2;
+	}
+}

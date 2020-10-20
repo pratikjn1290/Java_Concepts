@@ -1,0 +1,15 @@
+package exceptionHandling;
+
+public class NestedtryCatch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int i = 10;
+		
+		try {
+		int p = i/0;l
+		}
+	}
+
+}

@@ -1,0 +1,8 @@
+package com.Insight.pages;
+
+public class ForgotPassword {
+
+	@FindBy(xpath = "//div[@id = 'signUp']//h2")
+	
+	
+}

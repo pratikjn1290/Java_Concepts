@@ -1,0 +1,29 @@
+package com.Insight.test;
+
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+
+import com.Insight.baseclass.TestBase;
+import com.Insight.pages.LoginPage;
+
+public class LoginPageTest extends TestBase{
+	LoginPage login;
+	
+	public LoginPageTest() {
+		super();
+	}
+	
+	@BeforeMethod
+	public void setup()
+	{
+		initApplication();
+		login = new LoginPage();
+	}
+
+	
+	@AfterMethod
+	public void closeall()
+	{
+		();
+	}
+}

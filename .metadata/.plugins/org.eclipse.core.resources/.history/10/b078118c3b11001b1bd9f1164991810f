@@ -1,0 +1,15 @@
+package stringfunctions;
+
+public class Anagram {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s1 = "Silent";
+		String s2 = "Listen";
+		
+		int len_s1 = s1.length(); 
+		int len_s2 = s2.length();
+		}
+
+}

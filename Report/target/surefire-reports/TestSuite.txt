@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 3.452 s <<< FAILURE! - in TestSuite
+testClasses.TestClass1.test7  Time elapsed: 0.024 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Failed expected [false] but found [true]
+	at testClasses.TestClass1.test7(TestClass1.java:44)
+
+testClasses.TestClass1.test8  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Failed expected [false] but found [true],
+	Failed expected [false] but found [true]
+	at testClasses.TestClass1.test8(TestClass1.java:52)
+
+testClasses.TestClass2.test6  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.AssertionError: Failed expected [false] but found [true]
+	at testClasses.TestClass2.test6(TestClass2.java:30)
+

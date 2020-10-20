@@ -1,0 +1,16 @@
+package collectionsConcepts;
+
+import java.util.ArrayList;
+
+public class ArrayListConcept {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList ar = new ArrayList();
+		ar.add("Hello");
+		ar.add('h');
+		ar.add(32);
+	}
+
+}

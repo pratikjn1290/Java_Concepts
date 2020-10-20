@@ -1,0 +1,15 @@
+package string;
+
+public class Repeatedchar {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s = "Hello How are you! Hello I am fine";
+		
+		
+		
+		
+	}
+
+}

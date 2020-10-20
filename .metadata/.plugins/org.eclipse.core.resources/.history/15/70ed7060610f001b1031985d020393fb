@@ -1,0 +1,22 @@
+package string;
+
+public class conCatPassword {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		StringBuffer s1 = new StringBuffer("hackerra");
+		StringBuffer s2 = new StringBuffer("mountain");
+
+		int len_s1 = s1.length();
+		int len_s2 = s2.length();
+		StringBuffer password = null;
+		if (len_s1 == len_s2) {
+			{
+
+			}
+		}
+
+	}
+
+}

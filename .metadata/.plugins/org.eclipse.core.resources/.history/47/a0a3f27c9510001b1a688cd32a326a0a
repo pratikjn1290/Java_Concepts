@@ -1,0 +1,13 @@
+package stringfunctions;
+
+public class SwapString {
+	
+	String s1 = "Hello";
+	String s2 = "How";
+	
+	int len1 = s1.length();
+	int len2 = s2.length();
+	
+	
+
+}

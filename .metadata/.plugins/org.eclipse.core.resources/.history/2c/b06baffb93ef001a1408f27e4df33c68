@@ -1,0 +1,13 @@
+package Demo;
+
+public class StringConcept {
+
+	public static void main(String[] args) {
+		String S1 = "abc";
+		S1 = "def";
+
+		System.out.println(S1);
+
+	}
+
+}

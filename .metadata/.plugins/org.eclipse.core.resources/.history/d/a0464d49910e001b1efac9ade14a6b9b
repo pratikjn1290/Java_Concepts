@@ -1,0 +1,19 @@
+package com.Insight.pages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class LoginPage {
+
+	@FindBy(id = "username")
+	WebElement Username;
+	
+	@FindBy(id = "password")
+	WebElement Password;
+	
+	@FindBy(xpath = "//*[@id="terms"]")
+	WebElement TermsAndCondition;
+	
+	@FindBy(id = "username")
+	WebElement SignIn;
+}

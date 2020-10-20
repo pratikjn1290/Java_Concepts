@@ -1,0 +1,21 @@
+package otherPrograms;
+
+public class ArmstrongNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Armstrong number means qube of number is same as number
+		
+		int number = 151;
+		int temp;
+		int sum;
+		
+		while(number>0)
+		{
+			
+		}
+
+	}
+
+}

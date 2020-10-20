@@ -1,0 +1,11 @@
+package accessModifier;
+
+public class PrivateModifier {
+
+	private String name = "Hello";
+	private int age = 23;
+	protected char gender = 'm';
+	int i = 0;
+	
+	
+}

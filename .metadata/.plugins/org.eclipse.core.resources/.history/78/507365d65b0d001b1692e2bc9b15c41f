@@ -1,0 +1,33 @@
+package exceptionHandling;
+
+public class ThrowsKeyword {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ThrowsKeyword TK = new ThrowsKeyword();
+
+	}
+
+	public void m1()
+
+	{
+		System.out.println("Method M1");
+		m2();
+	}
+
+	public void m2()
+
+	{
+		System.out.println("Method M2");
+		m3();
+	}
+
+	public void m3()
+
+	{
+		System.out.println("Method M3");
+		int i = 9/0;
+	}
+
+}

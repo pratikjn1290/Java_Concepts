@@ -1,0 +1,15 @@
+package com.Insight.test;
+
+import com.Insight.baseclass.TestBase;
+
+public class HomePageTest extends TestBase{
+	
+	public HomePageTest()
+	{
+		super();
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,13 @@
+package arrayProgram;
+
+public class DuplicateValueFromArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String [] str = {"Java","Python","Java","QA","RCODE"};
+		
+	}
+
+}

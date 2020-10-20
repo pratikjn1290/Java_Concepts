@@ -1,0 +1,11 @@
+package abstractConcepts;
+
+public class abstract OopsAbstract {
+	
+	//create and object of abstract class
+	// in Abstract class atleast one method has to be abstract,
+	
+	public abstract void();
+	
+
+}

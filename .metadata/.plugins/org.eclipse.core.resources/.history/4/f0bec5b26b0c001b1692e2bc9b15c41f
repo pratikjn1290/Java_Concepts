@@ -1,0 +1,24 @@
+package constructorConcept;
+
+public class Employee {
+	
+	//Class variables
+	String name;
+	String department;
+	boolean permanent;
+	double salary;
+	
+	
+	
+	
+	public Employee()
+	{
+		
+	}
+	
+	public Employee(String name, String department)
+	
+	
+	
+
+}

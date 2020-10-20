@@ -1,0 +1,20 @@
+package stringfunctions;
+
+public class CamelCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s = "hello how are you";
+
+		String arr[] = s.split("\\s+");
+		
+		StringBuilder sb = new StringBuilder();
+		
+		for(String word : arr)
+		
+		}
+
+	}
+
+}

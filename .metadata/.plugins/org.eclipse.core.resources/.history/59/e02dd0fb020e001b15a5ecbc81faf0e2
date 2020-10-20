@@ -1,0 +1,50 @@
+package browserfactory;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class BrowserFactoryWithBinary {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		launchBrowser("Firefox", "https://corpository.com");
+	}
+
+	public static void launchBrowser(String borwserType, String url) {
+		WebDriver driver = null;
+
+		switch (borwserType) {
+		case "Chrome":
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
+			driver = new ChromeDriver();
+			break;
+
+		case "Firefox":
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/Drivers/geckodriver.exe");
+			driver = new FirefoxDriver();
+			break;
+
+		case "Edge":
+			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir") + "/Drivers/msedgedriver.exe");
+			driver = new EdgeDriver();
+			break;
+		
+		default:
+			System.out.println("Enter Valid browsername" +borwserType);
+			break;
+		}
+		
+		driver.manage().window().maximize();
+		driver.get(url);
+		String title = driver.getTitle();
+		System.out.println(title);
+		String cur_URL = driver.getCurrentUrl();
+		System.out.println(url);
+		driver.close();
+
+		
+	}
+}

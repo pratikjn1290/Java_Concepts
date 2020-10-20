@@ -1,0 +1,22 @@
+package string;
+
+public class DuplicatewordsusingHashMap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	String s = "Hello All I love Java and Love to code in Java";
+	
+	int len = s.length();
+	
+	words[] = s.split(" ");
+	
+	
+	
+	
+	
+	
+	}
+	
+
+}

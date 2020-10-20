@@ -1,0 +1,10 @@
+package interfaceConcepts;
+
+public class InterfaceTestClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,44 @@
+package constructorConcept;
+
+public class EcommerceExample {
+	
+	String productname;
+	double price;
+	String color;
+	String [] sellername;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public EcommerceExample(String productname) {
+		this.productname = productname;
+	}
+	
+	public EcommerceExample(String productname, double price, String color) {
+		super();
+		this.productname = productname;
+		this.price = price;
+		this.color = color;
+	}
+
+	public EcommerceExample(String productname, double price) {
+		super();
+		this.productname = productname;
+		this.price = price;
+	}
+
+	public EcommerceExample(String productname, double price, String color, String[] sellername) {
+		this.productname = productname;
+		this.price = price;
+		this.color = color;
+		this.sellername = sellername;
+	}
+	
+	
+
+}

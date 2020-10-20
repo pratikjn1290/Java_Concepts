@@ -1,0 +1,18 @@
+package stringfunctions;
+
+public class SwapString {
+
+	String s1 = "Hello";
+	String s2 = "How";
+
+	int len1 = s1.length();
+	int len2 = s2.length();
+
+	String s = s1 + s2;
+
+	private void syso() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

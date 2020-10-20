@@ -1,0 +1,23 @@
+package collectionsConcepts;
+
+import java.util.ArrayList;
+
+public class VirtualCapacity {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<Object> al = new ArrayList<Object>();
+		al.add("Hello");
+		System.out.println(al.size());
+	
+		
+		ArrayList <String> Sname = new ArrayList<String>();
+		Sname.add("Aname");
+		Sname.add("Hi");
+		Sname.add("Hello");
+		
+		System.out.println(Sname.size());
+	}
+
+}

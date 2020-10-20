@@ -1,0 +1,17 @@
+package stringfunctions;
+
+public class CamelCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s = "hello how are you";
+
+		String arr[] = s.split("");
+		for (int i = 0; i < arr.length; i++) {
+			String s1 = arr[i].toUpperCase();
+		}
+
+	}
+
+}

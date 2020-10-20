@@ -1,0 +1,32 @@
+package string;
+
+import java.util.HashMap;
+
+public class DuplicatewordsusingHashMap {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	String s = "Hello All I love Java and Love to code in Java";
+	
+	int len = s.length();
+	
+	String words[] = s.split(" ");
+	
+	HashMap<String, Integer> hm = new HashMap<String, Integer>();
+	
+	for(String word : words)
+	{
+	if(hm.containsKey(word))
+	{
+		hm.put(word, hm.get(word)+1);
+	}
+	}
+	
+	
+	
+	
+	}
+	
+
+}

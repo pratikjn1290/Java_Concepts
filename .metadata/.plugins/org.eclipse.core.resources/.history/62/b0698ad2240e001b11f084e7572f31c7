@@ -1,0 +1,22 @@
+package abstractConcepts;
+
+public class LoginTest extends Page{
+
+	@Override
+	public void pageTitle() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void url() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+	public static void forgotPassword()
+	{
+		System.out.println("Forgot Password");
+	}
+}

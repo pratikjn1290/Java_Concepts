@@ -1,0 +1,25 @@
+package string;
+
+public class SwapString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String s = "Hello";
+		String s1 = "How Are You";
+		
+		
+		
+		System.out.println("-------------Before Swapping-------------");
+		System.out.println(s);
+		System.out.println(s1);
+		
+		
+		
+		
+		System.out.println("-------------After Swapping-------------");
+		System.out.println(s);
+		System.out.println(s1);
+	}
+
+}

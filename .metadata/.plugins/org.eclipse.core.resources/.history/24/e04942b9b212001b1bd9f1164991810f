@@ -1,0 +1,16 @@
+package arrayProgram;
+
+public class LargestandSmallest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int [] arr = {12,45,43,64};
+		int largest = arr[0];
+		int smallest = arr[0];
+		
+		
+		
+	}
+
+}

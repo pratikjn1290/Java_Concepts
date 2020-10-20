@@ -1,0 +1,22 @@
+package thisKeyword;
+
+public class EcomTest {
+	
+	public static void main(String args[])
+	{
+		
+		EcomApp app = new EcomApp();
+		app.login("Pratik", "QA");
+		app.Search("Nike shoes");
+		app.addtocart("NikeShoes");
+		app.checkout("Nike");
+		app.dopayment("1234567455435", 12345);
+		
+		
+		
+	}
+
+	
+	
+	
+}

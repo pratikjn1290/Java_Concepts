@@ -1,0 +1,11 @@
+package com.Insight.pages;
+
+import org.openqa.selenium.WebElement;
+
+public class LoginPage {
+
+	@Findby(id = "username");
+	WebElement Username;
+	
+	
+}

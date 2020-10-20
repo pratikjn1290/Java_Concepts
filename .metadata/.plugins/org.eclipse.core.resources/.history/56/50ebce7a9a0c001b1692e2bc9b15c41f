@@ -1,0 +1,52 @@
+package encapsulationConcept;
+
+public class Persons {
+
+	//Scope of the private is within the class
+	//Encapsulation means class variables and methods data member (non static methods and variable)
+	//To hide implementation of data members
+	//Encapsulation means (Accessing private data members through public layer)
+	//Use Case
+	
+	private String name;
+	private String work;
+	private int Age;
+	private double Salary;
+
+	public static void main(String args[]) {
+		Persons p = new Persons();
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getWork() {
+		return work;
+	}
+
+	public void setWork(String work) {
+		this.work = work;
+	}
+
+	public int getAge() {
+		return Age;
+	}
+
+	public void setAge(int age) {
+		Age = age;
+	}
+
+	public double getSalary() {
+		return Salary;
+	}
+
+	public void setSalary(double salary) {
+		Salary = salary;
+	}
+
+}

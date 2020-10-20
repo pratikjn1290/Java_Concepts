@@ -1,0 +1,52 @@
+package constructorConcept;
+
+public class Employee {
+	
+	
+	
+	//Class variables
+	String name;
+	String department;
+	boolean permanent;
+	double salary;
+	char gender;
+	
+	//Constructor name should be same as class name,
+	//Constructor does not have any return type,
+	//looks like function,
+	//ASAP create object constructor is called,
+	//Does not return any thing
+	//Constructor with parameter is called parameterized constructor,
+	//default constructor means no parameters
+	
+	public Employee()
+	{
+		System.out.println("Hello Employee");
+	}
+	
+	public Employee(String name, String department)
+	{
+		
+	}
+	
+	public Employee(String name, String department, boolean permanent)
+	{
+		
+	}
+	
+	public Employee(String name, String department, boolean permanent, double salary)
+	{
+		
+	}
+	public Employee(String name, String department, boolean permanent, double salary, char gender)
+	{
+		
+	}	
+	
+
+	public static void main(String [] args)
+	{
+		
+	}
+	
+}

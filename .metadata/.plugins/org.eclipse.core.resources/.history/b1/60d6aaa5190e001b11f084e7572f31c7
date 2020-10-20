@@ -1,0 +1,15 @@
+package ownSelenium;
+
+public class TestClass{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		WebDriver driver = new ChromeDriverTest();
+		driver.findElement();
+		driver.Click();
+		driver.get("https://www.google.com");
+		
+	}
+
+}

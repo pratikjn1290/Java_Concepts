@@ -1,0 +1,44 @@
+package browserfactory;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class BrowserFactoryWithBinary {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public static void launchBrowser(String borwserType)
+	{
+		WebDriver driver = null;
+		
+		switch(borwserType) {
+		case "Chrome":
+		System.setProperty("", "");
+		driver = new ChromeDriver();
+		break;
+		
+		case "Firefox":
+			System.setProperty("", "");
+			driver = new FirefoxDriver();
+			break;
+			
+		case "Edge":
+			System.setProperty("", "");
+			driver = new EdgeDriver();
+			break;
+			
+		case "Chrome":
+			System.setProperty("", "");
+			driver = new ChromeDriver();
+			break;
+		
+		
+	}
+	
+	}
+}

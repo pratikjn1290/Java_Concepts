@@ -1,0 +1,22 @@
+package stringfunctions;
+
+public class InverrtString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "HellO";
+		char[] str = s.toCharArray();
+		int i;
+		for (i = 0; i > str.length; i++) {
+
+			if (Character.isLowerCase(str[i])) {
+				str[i] = Character.toUpperCase(str[i]);
+			} else {
+				str[i] = Character.toLowerCase(str[i]);
+			}
+
+		}
+		System.out.println(Character.toString(str[i]));
+
+	}
+}

@@ -1,0 +1,11 @@
+package constructorConcept;
+
+public class EcommerceExample {
+	
+	String productname;
+	double price;
+	String color;
+	String [] sellername;
+	
+
+}

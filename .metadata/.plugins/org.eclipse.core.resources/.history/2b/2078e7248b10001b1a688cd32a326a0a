@@ -1,0 +1,16 @@
+package stringfunctions;
+
+public class ReverseEveryWordOfString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String s = "Hello How are you";
+		
+		String[] arr = s.split(" ");
+		
+		
+		
+	}
+
+}

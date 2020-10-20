@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;collectionsConcepts.ArrayListRemoveDuplicates&apos; to &apos;ComparisionOfTwoAList&apos;&#x0D;&#x0A;- Original project: &apos;CollectionsConcept&apos;&#x0D;&#x0A;- Original element: &apos;collectionsConcepts.ArrayListRemoveDuplicates&apos;&#x0D;&#x0A;- Renamed element: &apos;collectionsConcepts.ComparisionOfTwoAList&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ArrayListRemoveDuplicates&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;collectionsConcepts{ArrayListRemoveDuplicates.java[ArrayListRemoveDuplicates" matchStrategy="1" name="ComparisionOfTwoAList" qualified="false" references="true" similarDeclarations="false" stamp="1603166254039" textual="false" version="1.0"/>
+</session>

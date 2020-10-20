@@ -1,0 +1,14 @@
+package encapsulationConcept;
+
+public class Persons {
+
+	private String name;
+	private String work;
+	private int Age;
+	private double Salary;
+
+	public static void main(String args[]) {
+
+	}
+
+}

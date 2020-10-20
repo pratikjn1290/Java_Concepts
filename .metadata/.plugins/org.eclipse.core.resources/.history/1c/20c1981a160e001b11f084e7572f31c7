@@ -1,0 +1,46 @@
+package interfaceConcepts;
+
+public class InterfaceTestClass extends ApolloHospital{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ApolloHospital Ah = new ApolloHospital();
+		
+		Ah.emergancy();	
+		Ah.bronchology();
+		Ah.gatrology();
+		Ah.gynacology();
+		Ah.nepthology();
+		Ah.oncology();
+		Ah.physiotherapi();
+		Ah.nureo();
+		Ah.physocology();
+		Ah.urology();
+		Ah.allopathy();
+		Ah.covidCare();
+		Ah.meseles();
+		Ah.homeopathy();
+		Ah.polio();
+
+		
+		//reference variable is from parent class
+		//Child class object can be refereed by parent interface variable:- TopCasting.
+		
+		UKMedical uk = new ApolloHospital();
+		uk.nureo();
+		uk.physiotherapi();
+		uk.urology();
+		
+		//reference variable is from parent class
+		
+		USMedical us = new ApolloHospital();
+		us.bronchology();
+		us.nepthology();
+		us.oncology();
+		
+		
+		
+	}
+
+}

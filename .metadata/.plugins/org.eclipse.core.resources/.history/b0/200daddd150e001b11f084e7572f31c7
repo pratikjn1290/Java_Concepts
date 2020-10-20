@@ -1,0 +1,12 @@
+package interfaceConcepts;
+
+public interface UKMedical {
+
+	public void physiotherapi();
+	
+	public void nureo();
+	
+	public void urology();
+	
+	
+}

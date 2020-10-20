@@ -1,0 +1,24 @@
+package collectionsConcepts;
+
+import java.util.ArrayList;
+
+public class MethodsinArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ArrayList<String> Ar1 = new ArrayList<String>();
+		Ar1.add("Java");
+		Ar1.add("Python");
+		Ar1.add("DevOps");
+		Ar1.add("DD");
+
+		ArrayList<String> Ar2 = new ArrayList<String>();
+		Ar2.add("PHP");
+		Ar2.add("RUBY");
+		Ar1.addAll(3, Ar2);
+		System.out.println(Ar1);
+
+	}
+
+}

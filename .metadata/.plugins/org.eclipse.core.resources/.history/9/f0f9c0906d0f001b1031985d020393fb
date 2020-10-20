@@ -1,0 +1,22 @@
+package otherPrograms;
+
+public class ArmstrongNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Armstrong number means qube of number is same as number
+		
+		int number;
+		int temp;
+		int sum;
+		temp = sum;
+		
+		while(number>0)
+		{
+			
+		}
+
+	}
+
+}

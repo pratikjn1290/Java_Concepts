@@ -1,0 +1,36 @@
+package thisKeyword;
+
+public class EcomApp {
+	
+	public void login(String Username, String Password)
+	{
+		System.out.println("Login with username and passwords");
+	}
+	
+	public void Search(String productname)
+
+	{
+		System.out.println("Sesarch with prodcut name");
+	}
+	
+	public void search(double price)
+	{
+		System.out.println("Search using price");
+	}
+	
+	public void addtocart(String productname)
+	{
+		System.out.println("Added in cart");
+	}
+	
+	public void checkout(String productname)
+	{
+		System.out.println("Check out");
+	}
+	
+	public void dopayment(double cardno, String Password)
+
+	{
+		System.out.println("Card No");
+	}
+}

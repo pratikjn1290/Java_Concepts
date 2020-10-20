@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\Pratik\Desktop\RestAssured\ApiAutomation"/>
+			<item value="C:\Users\Pratik\Desktop\RestAssured\XSLTReport"/>
+			<item value="C:\Users\Pratik\git\SeleniumDemo\Selenium"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="Reporting"/>
+			<item value="InsightAutomation"/>
+			<item value="AutomationFramework"/>
+			<item value="BaseClass"/>
+			<item value="PageObjectModel"/>
+			<item value="Sikuli"/>
+			<item value="XSLTReport"/>
+			<item value="Demo"/>
+			<item value="ApiAutomation"/>
+		</list>
+		<list key="name">
+			<item value="ReportTest"/>
+			<item value="AutomationFramework"/>
+			<item value="BaseClass"/>
+			<item value="PageObjectModel"/>
+			<item value="SikuliDemo"/>
+			<item value="XSLTReportDemo"/>
+			<item value="Selenium"/>
+			<item value="ApiAutomation"/>
+		</list>
+		<list key="artifactId">
+			<item value="Report"/>
+			<item value="InsightAutomation"/>
+			<item value="AutomationFramework"/>
+			<item value="BaseClass"/>
+			<item value="PageObjectModel"/>
+			<item value="Sikuli"/>
+			<item value="XSLTReport"/>
+			<item value="Selenum"/>
+			<item value="ApiAutomation"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>

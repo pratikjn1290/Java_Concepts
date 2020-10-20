@@ -1,0 +1,15 @@
+package ArrayDemo;
+
+public class DistinctArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int [] arr = {12,23,45,65,12,23};
+		
+		
+		
+		
+	}
+
+}

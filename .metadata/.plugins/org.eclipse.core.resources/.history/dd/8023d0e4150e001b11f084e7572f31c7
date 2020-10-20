@@ -1,0 +1,12 @@
+package interfaceConcepts;
+
+public interface USMedical {
+
+	public void oncology();
+	
+	public void nepthology();
+	
+	public void bronchology();
+	
+	
+}

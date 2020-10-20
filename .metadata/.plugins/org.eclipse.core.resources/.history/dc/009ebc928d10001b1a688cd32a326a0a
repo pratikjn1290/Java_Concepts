@@ -1,0 +1,16 @@
+package stringfunctions;
+
+public class InverrtString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "HellO";
+		int len = s.length();
+		char[] str = s.toCharArray();
+
+		for (char strword : str) {
+			
+		}
+			
+		}
+}
